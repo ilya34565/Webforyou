@@ -1,0 +1,67 @@
+/*Прижатие футера*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: sans-serif
+    font-family: sans-serif
+        
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex; 0 0 auto;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: forestgreen;
+    font-size: 20px;
+}
+
+input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: 500.
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: blue;
+}
+
+.button:active {
+    background: flex;
+    flex-direction: column;
+}
+
+.text {
+    color: white;
+}
